@@ -18,63 +18,63 @@ let package = Package(
         .library(name: "LipSync", targets: ["AgoraLipSyncExtension"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Shengwang-Lab/ShengwangInfra_iOS.git", from: "1.3.4")
+        .package(url: "https://github.com/Shengwang-Lab/ShengwangInfra_iOS.git", from: "1.3.5")
     ],
     targets: [
         .binaryTarget(
             name: "AgoraRtcKit",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/AgoraRtcKit.xcframework.zip",
-            checksum: "741d5a64317b49b53e4ec92f5b6bcdc42670cfda8fc40fe8ee61d04917d7ba75"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/AgoraRtcKit.xcframework.zip",
+            checksum: "6066feee1f9aa45961992d947ef447a770a8a985a7088fc027815877bd9ef370"
         ),
         .binaryTarget(
             name: "Agorafdkaac",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/Agorafdkaac.xcframework.zip",
-            checksum: "ec241909af65eed0953d4a18838e836b452f19ffe34e9e4754d0197eab0132b7"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/Agorafdkaac.xcframework.zip",
+            checksum: "e0b92bfe7193c041158d06872602386b5b9ffe13a2dde50a9742d1a6eff6ede7"
         ),
         .binaryTarget(
             name: "Agoraffmpeg",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/Agoraffmpeg.xcframework.zip",
-            checksum: "906ae85c6f68d2360c16f46cbb91efd28dff9c949ebe1ab4e98471c82cd39cd0"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/Agoraffmpeg.xcframework.zip",
+            checksum: "3376dee60cebbff41a2532ae1812a2927bdbb527742dc11722a357bd6d2535c4"
         ),
         .binaryTarget(
             name: "AgoraSoundTouch",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/AgoraSoundTouch.xcframework.zip",
-            checksum: "1d72f24e226322ffec6bbb3c4de68059b92eb0980e54e51ca6f53160b88ec2ef"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/AgoraSoundTouch.xcframework.zip",
+            checksum: "9acf7b15213b3a1ec1c50b9c34ed501b81bf528f9b1fbc72c934489dd40779c7"
         ),
         .binaryTarget(
             name: "AgoraAiNoiseSuppressionExtension",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/AgoraAiNoiseSuppressionExtension.xcframework.zip",
-            checksum: "44c64fc6cb56f7e5a135e4b316543a782e924c69b27a0cf86d73a68a9755ecb6"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/AgoraAiNoiseSuppressionExtension.xcframework.zip",
+            checksum: "d908e6ae133710312404d04a0ac98a1d08baaff3347e57c4409e3e5ec7963232"
         ),
         .binaryTarget(
             name: "AgoraAiNoiseSuppressionLLExtension",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/AgoraAiNoiseSuppressionLLExtension.xcframework.zip",
-            checksum: "b26c328774aa1b56c4cc0c0bc33d0177f6d63b4370e51c8c2864d354a9925b5b"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/AgoraAiNoiseSuppressionLLExtension.xcframework.zip",
+            checksum: "0c44789f188ad9375f626845fdde5b5496bb73748edf5994509eb184643a453b"
         ),
         .binaryTarget(
             name: "AgoraAudioBeautyExtension",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/AgoraAudioBeautyExtension.xcframework.zip",
-            checksum: "c9d6b80c77d92c555d3de71d786e7ad8395db4d903c62773a169bdf698c7b781"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/AgoraAudioBeautyExtension.xcframework.zip",
+            checksum: "73e88915bec30fe5dbedcb770f7918baa1dfec3e6a10945199f5d4f86b8e101c"
         ),
         .binaryTarget(
             name: "AgoraSpatialAudioExtension",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/AgoraSpatialAudioExtension.xcframework.zip",
-            checksum: "861b60c91c1537deb4c618f32732464a53e2bf39811c09dd6b42e0e5e08e4ca0"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/AgoraSpatialAudioExtension.xcframework.zip",
+            checksum: "f78dbc5a68a55e0335b711939fbcd3916d642f6ab720db66c4cd51c0c3287c96"
         ),
         .binaryTarget(
             name: "AgoraAiEchoCancellationExtension",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/AgoraAiEchoCancellationExtension.xcframework.zip",
-            checksum: "f42ecdda7b62bdea2e6b39888df681e41c592c4b8ce5cf347c3e9cfc27e1781a"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/AgoraAiEchoCancellationExtension.xcframework.zip",
+            checksum: "cc4e7126950c1b9cc5783a7bccaf5a78dc4439fa1e2362f2dcccac582d54a5c9"
         ),
         .binaryTarget(
             name: "AgoraAiEchoCancellationLLExtension",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/AgoraAiEchoCancellationLLExtension.xcframework.zip",
-            checksum: "95425c2c3369ab8c05e81a732352733d90851f8ee0a3d377d1ac2ee19b9b5a9b"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/AgoraAiEchoCancellationLLExtension.xcframework.zip",
+            checksum: "eca7a86f584f71bf38780e7defc42ccc28881cdcf2f5e3a53ac869842bb5917a"
         ),
         .binaryTarget(
             name: "AgoraLipSyncExtension",
-            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2-dev.4/AgoraLipSyncExtension.xcframework.zip",
-            checksum: "4043d38f93f18dd6aa97d8e07bb88d23e55a6aa0a4cf59b43a1450e1e13836f3"
+            url: "https://download.shengwang.cn/swiftpm/ShengwangAudio_iOS/4.6.2/AgoraLipSyncExtension.xcframework.zip",
+            checksum: "929c58c859a0d31f3cc3e2cf93e06a9766ce0888e8c4cd687ca4da5d15133d99"
         ),
         .target(
             name: "ShengwangInfra_iOS",
